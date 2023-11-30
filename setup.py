@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='progbar',
+    name='keras_progbar',
     version='0.1',
     description='Progress bar of keras',
     author='Keras-team',
