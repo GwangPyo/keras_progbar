@@ -13,7 +13,7 @@ class Progbar:
         verbose: Verbosity mode, 0 (silent), 1 (verbose), 2 (semi-verbose)
         stateful_metrics: Iterable of string names of metrics that should *not*
           be averaged over time. Metrics in this list will be displayed as-is.
-          All others will be averaged by the progressbar before display.
+          All others will be averaged by the keras_progbar before display.
         interval: Minimum visual progress update interval (in seconds).
         unit_name: Display name for step counts (usually "step" or "sample").
     """
